@@ -1,0 +1,38 @@
+{
+  "name": "uparrow",
+  "version": "1.1.0",
+  "description": "Knuth's up-arrow implementation with BigInt",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepublish": "tsc",
+    "publish": "npm publish --access=public",
+    "start": "node dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BelphegorPrime/uparrow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BelphegorPrime/uparrow/issues"
+  },
+  "homepage": "https://github.com/BelphegorPrime/uparrow#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "jest": "^24.8.0",
+    "prettier": "1.18.2",
+    "ts-jest": "^24.0.2",
+    "tslint": "5.18.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.0.1",
+    "typescript": "^3.5.2"
+  },
+  "peerDependencies": {}
+}
